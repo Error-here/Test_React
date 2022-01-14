@@ -2,9 +2,9 @@ import { decorate, computed, observable, action } from 'mobx';
 
 class Store {
   tasks = [
-    { id: 0, title: 'Прийти на конс', done: false },
-    { id: 1, title: 'ПРийти на єкз', done: true },
-    { id: 2, title: 'Поспать', done: false }
+    { id: 0, title: 'Come for a consultation', done: false },
+    { id: 1, title: 'Come to the exam', done: true },
+    { id: 2, title: 'sleep', done: false }
   ];
 
   get sortedTasks() {
